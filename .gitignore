@@ -1,0 +1,2 @@
+# Do not commit build artifacts to version control
+build/
