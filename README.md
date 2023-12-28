@@ -12,7 +12,7 @@ This repository provides an environment that creates compiled binaries for the P
 
 ## Pre-built Binaries
 
-This repository automatically compiles release binaries using Github Actions (GA), a Continuous Integration (CI/CD) tool. You may find pre-built binaries as compressed `.tar.gz` and `.zip` archives via the releases page. Once again, be advised that these binaries are *unofficial*.
+This repository automatically compiles release binaries using Github Actions (GA), a Continuous Integration (CI/CD) tool. You may find pre-built binaries as compressed `.tar.gz` and `.zip` archives via the releases page. Once again, be advised that these binaries are *unofficial*, and this repository is *not* affiliated nor endorsed by the team at Plausible.
 
 * [Releases page](https://github.com/ShenZhouHong/plausible-ubuntu-binaries/releases)
 
@@ -37,7 +37,7 @@ git submodule init
 git submodule update
 ```
 
-After initialising the git submodule, we are ready to build the Plausible binaries.
+After initialising Plausible Analytic's source code as a git submodule, we are ready to build the Plausible binaries.
 
 ### Build Binaries
 
