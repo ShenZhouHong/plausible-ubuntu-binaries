@@ -15,7 +15,7 @@ This repository provides an environment that creates compiled binaries for the P
 In order to build Plausible, first ensure that git and Docker are available on your build system.
 
 ### Initializing Git Submodules
-This repository contains the Plausible source code (from [Plausible/Analytics](https://github.com/plausible/analytics/)) as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules, located at `src/` When cloning this repository for the first time, you must initialize and update the submodule in order to have Plausible's code available at `src/`
+This repository contains the Plausible source code (from [Plausible/Analytics](https://github.com/plausible/analytics/)) as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), located at `src/` When cloning this repository for the first time, you must initialize and update the submodule in order to have Plausible's code available at `src/`
 
 ```bash
 git submodule init
