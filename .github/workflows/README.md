@@ -10,7 +10,7 @@ The `build-ubuntu-binary.yml` github action performs the following three tasks. 
 2. Packages the build artifacts as `.tar.gz` and `.zip` compressed archives.
 3. Uploads the compressed build artifacts as a Github release.
 
-Releases can be found on the releases page.
+Releases can be found on the [releases page](https://github.com/ShenZhouHong/plausible-ubuntu-binaries/releases/).
 
 ## Local Development
 

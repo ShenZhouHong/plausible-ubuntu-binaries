@@ -14,7 +14,7 @@ This repository provides an environment that creates compiled binaries for the P
 
 This repository automatically compiles release binaries using Github Actions (GA), a Continuous Integration (CI/CD) tool. You may find pre-built binaries as compressed `.tar.gz` and `.zip` archives via the releases page. Once again, be advised that these binaries are *unofficial*, and this repository is *not* affiliated nor endorsed by the team at Plausible.
 
-* [Releases page](https://github.com/ShenZhouHong/plausible-ubuntu-binaries/releases)
+* [Latest Release](https://github.com/ShenZhouHong/plausible-ubuntu-binaries/releases/latest)
 
 For documentation relating to this repository's GA workflow, see the file at `.github/workflows/README.md`. You may directly access it via [this link](.github/workflows/README.md). 
 
@@ -70,3 +70,8 @@ Some future improvements for the repository.
 - [X] ~~Make pre-built binaries available for immediate download via Github's releases feature.~~ Completed.
 - [X] ~~Build binaries automatically using Github Actions.~~ Completed.
 - [ ] Create build environments for additional operating systems such as CentOS, RHEL, or FreeBSD.
+- [ ] Properly track upstream SemVer versions instead of building on the main branch directly.
+
+## License
+
+Copyright for the Plausible Analytics source code (i.e. everything within the `src/` git submodule) is held by the team at [Plausible.io](https://plausible.io/), and [released under the terms of an AGPLv3 License](https://github.com/plausible/analytics/blob/master/LICENSE.md). The build tooling contained within this repository (i.e. `Dockerfile`, `build.sh`, and `.github/workflows/build-ubuntu-binary.yml`) are my own work, and they are [released under an AGPLv3 License](./LICENSE.md) as well. 
