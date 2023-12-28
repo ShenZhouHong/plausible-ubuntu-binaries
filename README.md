@@ -10,9 +10,24 @@ This repository provides an environment that creates compiled binaries for the P
 
 **Disclaimer:** Please note that these binaries are *unofficial*, and this repository is *not* affiliated nor endorsed by the team at Plausible in any way.
 
-## Instructions
+## Pre-built Binaries
 
-In order to build Plausible, first ensure that git and Docker are available on your build system.
+This repository automatically compiles release binaries using Github Actions (GA), a Continuous Integration (CI/CD) tool. You may find pre-built binaries as compressed `.tar.gz` and `.zip` archives via the releases page. Once again, be advised that these binaries are *unofficial*.
+
+* [Releases page](https://github.com/ShenZhouHong/plausible-ubuntu-binaries/releases)
+
+For documentation relating to this repository's GA workflow, see the file at `.github/workflows/README.md`. You may directly access it via [this link](.github/workflows/README.md). 
+
+Additionally, you may also choose to build your own binaries by cloning this repository, and running the build script on your own system. Instructions on how to do this are in the section below.
+
+## Instructions for Building Binaries
+
+In order to build Plausible, first ensure that git and Docker are available on your build system. First, clone this repository to your system.
+
+```bash
+git clone https://github.com/ShenZhouHong/plausible-ubuntu-binaries.git
+cd plausible-ubuntu-binaries
+```
 
 ### Initializing Git Submodules
 This repository contains the Plausible source code (from [Plausible/Analytics](https://github.com/plausible/analytics/)) as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), located at `src/` When cloning this repository for the first time, you must initialize and update the submodule in order to have Plausible's code available at `src/`
@@ -52,6 +67,6 @@ Please see Plausible's [documentation](https://plausible.io/docs/) for further i
 
 Some future improvements for the repository.
 
-* Create build environments for additional operating systems such as CentOS, RHEL, or FreeBSD.
-* Make pre-built binaries available for immediate download via Github's releases feature.
-* Build binaries automatically using Github Actions.
+- [X] ~~Make pre-built binaries available for immediate download via Github's releases feature.~~ Completed.
+- [X] ~~Build binaries automatically using Github Actions.~~ Completed.
+- [ ] Create build environments for additional operating systems such as CentOS, RHEL, or FreeBSD.
